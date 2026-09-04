@@ -7,7 +7,7 @@ import assets from '../assets/assets'
 function ThemeTogglebtn({theme , setTheme}) {
   
   useEffect(()=>{
-      const prefersDarkMode = window.matchMedia('(perfers-color-scheme: dark)').matches;
+      const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
       setTheme(theme || (prefersDarkMode ? 'dark' : 'light'))
   },[])
 
