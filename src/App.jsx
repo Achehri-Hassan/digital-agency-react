@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import TurstedBy from './components/TurstedBy'
+import Services from './components/Services'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Navbar theme={theme} setTheme={setTheme}/>
         <Hero/>
         <TurstedBy/>
+        <Services/>
       
      </div>
    
