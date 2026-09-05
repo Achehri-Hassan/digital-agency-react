@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import TurstedBy from './components/TurstedBy'
 import Services from './components/Services'
+import Ourwor from './components/Ourwor'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Hero/>
         <TurstedBy/>
         <Services/>
+        <Ourwor/>
       
      </div>
    
