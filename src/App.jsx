@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import TurstedBy from './components/TurstedBy'
 import Services from './components/Services'
 import Ourwor from './components/Ourwor'
+import Teams from './components/Teams'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <TurstedBy/>
         <Services/>
         <Ourwor/>
+        <Teams/>
       
      </div>
    
