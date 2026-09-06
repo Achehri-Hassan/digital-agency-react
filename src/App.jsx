@@ -7,6 +7,7 @@ import TurstedBy from './components/TurstedBy'
 import Services from './components/Services'
 import Ourwor from './components/Ourwor'
 import Teams from './components/Teams'
+import ContactUs from './components/ContactUs'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Services/>
         <Ourwor/>
         <Teams/>
+        <ContactUs/>
       
      </div>
    
